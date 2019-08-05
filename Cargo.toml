@@ -1,0 +1,12 @@
+[package]
+name = "memlogger"
+version = "0.1.0"
+authors = ["Mirko Hecky <m.hecky@simon-ibv.de>"]
+edition = "2018"
+
+[dependencies]
+sysinfo = "*"
+clap = "*"
+quick-error = "*"
+timer = "*"
+chrono = "*"
