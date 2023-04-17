@@ -62,7 +62,7 @@ fn main() -> Result<(), CliError> {
     let _guard = timer.schedule_repeating(chrono::Duration::seconds(interval as i64), move || {
         system.refresh_processes();
         let process_names = matches.values_of("processes").unwrap();
-        let processes = system.get_process_list();
+        let processes = system.processes();
         let mut list: Vec<&Process> = Vec::new();
         for name in process_names {
             for (_pid, p) in processes {

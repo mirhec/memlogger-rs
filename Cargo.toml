@@ -5,8 +5,8 @@ authors = ["Mirko Hecky <m.hecky@simon-ibv.de>"]
 edition = "2018"
 
 [dependencies]
-sysinfo = "*"
-clap = "*"
-quick-error = "*"
-timer = "*"
-chrono = "*"
+sysinfo = "0.28.4"
+clap = "2.34.0"
+quick-error = "2.0.1"
+timer = "0.2.0"
+chrono = "0.4.7"
